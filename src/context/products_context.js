@@ -16,7 +16,7 @@ import {
 } from '../actions'
 
 const initialState = {
-  isSidebarOpen: true,
+  isSidebarOpen: false,
 }
 
 const ProductsContext = React.createContext()
