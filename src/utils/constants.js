@@ -23,22 +23,19 @@ export const services = [
     id: 1,
     icon: <GiCompass />,
     title: 'mission',
-    text:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, ea. Perferendis corrupti reiciendis nesciunt rerum velit autem unde numquam nisi',
+    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic natus cupiditate officiis veritatis, incidunt voluptates nihil esse ullam repudiandae debitis?',
   },
   {
     id: 2,
     icon: <GiDiamondHard />,
     title: 'vision',
-    text:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, ea. Perferendis corrupti reiciendis nesciunt rerum velit autem unde numquam nisi',
+    text: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores ad libero praesentium vero numquam reprehenderit nisi harum. Repudiandae, dolore non!',
   },
   {
     id: 3,
     icon: <GiStabbedNote />,
     title: 'history',
-    text:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, ea. Perferendis corrupti reiciendis nesciunt rerum velit autem unde numquam nisi',
+    text: '  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem temporibus autem dolores fugit at. Corporis, dolorum quam! Sit, enim consectetur.',
   },
 ]
 
