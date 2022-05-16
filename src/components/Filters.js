@@ -44,7 +44,6 @@ const Filters = () => {
             <h5>category</h5>
             <div>
               {categories.map((cat, index) => {
-                console.log(cat)
                 return (
                   <button
                     key={index}
