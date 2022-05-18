@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { Link, useParams, useHistory } from 'react-router-dom'
+import { Link, useParams, useNavigate } from 'react-router-dom'
 import styled from 'styled-components'
 // import { Link } from 'react-router-dom'
 
@@ -17,7 +17,7 @@ import {
 
 const SingleProductPage = () => {
   const { id } = useParams()
-  const history = useHistory()
+  const navigate = useNavigate()
   const {
     single_product_loading: loading,
     single_product_error: error,
@@ -33,7 +33,7 @@ const SingleProductPage = () => {
   useEffect(() => {
     if (error) {
       setTimeout(() => {
-        history.push('/')
+        navigate('/')
       }, 3000)
     }
     // eslint-disable-next-line
